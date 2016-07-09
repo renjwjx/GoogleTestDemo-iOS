@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: gtestDemo.xcodeproj # path to your xcodeproj folder
+xcode_scheme: gtestDemo
+xcode_sdk: iphonesimulator

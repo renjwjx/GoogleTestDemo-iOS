@@ -9,7 +9,7 @@ This is a googleTest Demo on iOS platform
 1. [google test office src on github](https://github.com/google/googletest)
 2. [google test opensource project on Mac OX](https://github.com/mattstevens/xcode-googletest)
 
-##2. make a project build the static googletest lib
+##2. create a project build the static googletest lib
 1. Make a new iOS project that type is Cocoa Touch Static Library
 2. import the google src
 3. setup the header Search Paths in project->Build Setting
@@ -18,14 +18,14 @@ This is a googleTest Demo on iOS platform
 [GoogleTestDemo-iOS](https://github.com/renjwjx/GoogleTestDemo-iOS)
 gtestSrc is the google test project, it can build static lib.
 
-##3. add your unit test to GtestDemo project
+##3. create your UITest code project(GtestDemo) and add gtestSrc to GtestDemo project as dependency.
 1. the unit test code is in the GoogleTestDemo-iOS/gtestDemo. sample1_unittest.cc
 2. add googletest dependency project(gtestsrc, gtestMain) to gtestDemo project. 
 3. make sure the gtest header path is config in the gtestDemo project.
 
 ##4. run google test
 1. select the target gtestDemo on iphone simulator.
-2. you will see the output as follow:
+2. run the target, you will see the output as follow:
 
 ```
 Running main() from gtest_main.cc

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE2521241D2FF0CE0084688D /* gtestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2521231D2FF0CE0084688D /* gtestDemoTests.m */; };
-		EE25212F1D2FF0CE0084688D /* gtestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE25212E1D2FF0CE0084688D /* gtestDemoUITests.m */; };
 		EE25214D1D3093450084688D /* sample1_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = EE25214A1D3093450084688D /* sample1_unittest.cc */; };
 		EE25214E1D3093450084688D /* sample1.cc in Sources */ = {isa = PBXBuildFile; fileRef = EE25214B1D3093450084688D /* sample1.cc */; };
 		EE25215F1D3095670084688D /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE25215A1D3095180084688D /* libgtest_main.a */; };
@@ -64,11 +62,7 @@
 		EE2521061D2FF0CD0084688D /* gtestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gtestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE25211A1D2FF0CE0084688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE25211F1D2FF0CE0084688D /* gtestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE2521231D2FF0CE0084688D /* gtestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtestDemoTests.m; sourceTree = "<group>"; };
-		EE2521251D2FF0CE0084688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE25212A1D2FF0CE0084688D /* gtestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE25212E1D2FF0CE0084688D /* gtestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtestDemoUITests.m; sourceTree = "<group>"; };
-		EE2521301D2FF0CE0084688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE25214A1D3093450084688D /* sample1_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1_unittest.cc; sourceTree = "<group>"; };
 		EE25214B1D3093450084688D /* sample1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1.cc; sourceTree = "<group>"; };
 		EE25214C1D3093450084688D /* sample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample1.h; sourceTree = "<group>"; };
@@ -106,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				EE2521081D2FF0CD0084688D /* gtestDemo */,
-				EE2521221D2FF0CE0084688D /* gtestDemoTests */,
-				EE25212D1D2FF0CE0084688D /* gtestDemoUITests */,
 				EE2521071D2FF0CD0084688D /* Products */,
 				EE2521521D3095180084688D /* gtestSrc.xcodeproj */,
 			);
@@ -140,24 +132,6 @@
 				EE25211A1D2FF0CE0084688D /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EE2521221D2FF0CE0084688D /* gtestDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE2521231D2FF0CE0084688D /* gtestDemoTests.m */,
-				EE2521251D2FF0CE0084688D /* Info.plist */,
-			);
-			path = gtestDemoTests;
-			sourceTree = "<group>";
-		};
-		EE25212D1D2FF0CE0084688D /* gtestDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE25212E1D2FF0CE0084688D /* gtestDemoUITests.m */,
-				EE2521301D2FF0CE0084688D /* Info.plist */,
-			);
-			path = gtestDemoUITests;
 			sourceTree = "<group>";
 		};
 		EE2521531D3095180084688D /* Products */ = {
@@ -330,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2521241D2FF0CE0084688D /* gtestDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE25212F1D2FF0CE0084688D /* gtestDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

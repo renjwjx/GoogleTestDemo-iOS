@@ -1,4 +1,4 @@
-# GoogleTestDemo-iOS
+# GoogleTestDemo-iOS [![Build Status](https://travis-ci.org/renjwjx/GoogleTestDemo-iOS.svg?branch=master)](https://travis-ci.org/renjwjx/GoogleTestDemo-iOS)
 This is a googleTest Demo on iOS platform
 
 #How to setup GoogleTest on iOS platform
